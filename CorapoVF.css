@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+
+        /* LES TITRES */
+
+/* Titre principal de l'index */
+h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 4em;
+}
+
+/* Titre secondaire de l'index */
+h2 {
+  font-size: 1.5em;
+}
+
+/* Titres principal pages internes */
+h3 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 3em;
+  text-align: left;
+  border-bottom: 2px solid white;
+}
+
+/* Titres secondaires pages internes */
+h4 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+}
+
+/* Sous-titres pages internes */
+h5 {
+  font-size: 1em;
+}
+
+        /* LES PAGES */
+
+/* Commun à toutes les pages */
+
+body {
+  background-image: url(./images_corapo/fond-d-ecran.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+  font-family: 'Mukta', cursive;
+}
+
+.copyright {
+  font-size: 1em;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  color: rgb(50, 48, 67);
+}
+
+/* Liens hypertextes */
+
+#hello_asso, #instagram, #facebook, #presse_3C {
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+#hello_asso:hover, #instagram:hover, #facebook:hover, #presse_3C:hover {
+  text-shadow: 2px 2px gray;
+}
+
+
+/* Page principale */
+
+header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.titre {
+  border-top: 2px solid rgb(50, 48, 67);
+  border-bottom: 2px solid rgb(50, 48, 67);
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+  color:rgb(50, 48, 67);
+}
+
+.sommaire {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.sommaire_button {
+  color:rgb(50, 48, 67);
+  background-color: transparent;
+  font-size: 1em;
+  border: 1px solid rgb(50, 48, 67);
+  margin: 10px 10px 20px 10px;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.sommaire_button:hover {
+  border: 2px solid rgb(50, 48, 67);
+  transition: all 450ms linear;
+}
+
+
+/* Pages secondaires */
+
+main {
+  width: 45%;
+  margin: auto;
+  padding: 20px 20px 20px 20px;
+  background-color: rgba(43, 43, 43, 0.5);
+  font-size: 1.2em;
+}
+
+.return-button {
+  width: 20px;
+  height: 20px;
+}
+
+.return-button-link {
+  text-align: right;
+}
+
+
+/* Page Créations */
+
+#img_logo_corapo, #img_tout_par_dela, #img_j_invente_le_monde {
+  width: 100%;
+}
+
+#textes {
+  text-align: left;
+}
+
+
+/* Page Dates */
+
+#page_dates {
+  text-align: right;
+}
+
+
+/* Page A propos de nous */
+
+#page_a_propos {
+  text-align: left;
+}
+
+#img_tatiana, #img_morgan {
+  margin-left: 30px;
+}
+
+
+        /* RESPONSIVE */
+
+/* écran ordinateur de moitié : page secondaire plus larges */
+
+@media only screen and (max-width: 950px) {
+  main {
+    width: 75%;
+  }
+}
+
+/* écran ordinateur serré : sommaire l'un sur l'autre */
+
+@media only screen and (max-width: 550px) {
+  .sommaire {
+    flex-direction: column;
+  }
+}
+
+
+/* portable orientation portrait */
+
+@media only screen and (orientation: portrait) {}
+
+
+/* portable orientation paysage */
+
+@media only screen and (orientation: landscape) {}
