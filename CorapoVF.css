@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
 
+
         /* LES TITRES */
 
 /* Titre principal de l'index */
@@ -33,6 +34,7 @@ h4 {
 h5 {
   font-size: 1em;
 }
+
 
         /* LES PAGES */
 
@@ -149,6 +151,10 @@ main {
   text-align: right;
 }
 
+#petit_logo_dates {
+  width: 30%;
+}
+
 
 /* Page A propos de nous */
 
@@ -159,6 +165,24 @@ main {
 #img_tatiana, #img_morgan {
   margin-left: 30px;
 }
+
+
+/* Page Contact */
+
+#bloc_contact {
+  display: flex;
+  justify-content: space-around;
+}
+
+#logo_contact  {
+  width: 100%;
+}
+
+#border_gauche  {
+  border-left: 0.7px solid white;
+  padding-left: 30px;
+}
+
 
 
         /* RESPONSIVE */
@@ -182,9 +206,54 @@ main {
 
 /* portable orientation portrait */
 
-@media only screen and (orientation: portrait) {}
+@media only screen and (max-width: 480px) {
 
+  h1 {
+    font-size: 7em;
+  }
 
-/* portable orientation paysage */
+  h2 {
+    font-size: 4.5em;
+  }
+  
+  h3 {
+    font-size: 6em;
+  }
 
-@media only screen and (orientation: landscape) {}
+  h4 {
+    font-size: 4.5em;
+  }
+
+  h5 {
+    font-size: 3em;
+  }
+
+  main {
+    width: 80%;
+    padding: 7px 7px 7px 7px;
+    font-size: 3.2em;
+  }
+
+  .return-button {
+    width: 7px;
+    height: 7px;
+  }
+
+  .sommaire {
+    flex-direction: column;
+  }
+
+  .sommaire_button {
+    font-size: 3em;
+    margin: auto;
+    padding: auto;
+    font-size: 3.2em;
+    font-weight: 600;
+  }
+
+  #border_gauche  {
+    border-left: 0.7px solid white;
+    padding-left: 30px;
+  }
+
+}
