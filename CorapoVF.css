@@ -216,7 +216,7 @@ button:hover {
 }
 
 
-/* écran ordinateur serré : sommaire l'un sur l'autre */
+/* écran ordinateur serré + mobile */
 
 @media only screen and (max-width: 550px) {
   .sommaire {
@@ -224,6 +224,18 @@ button:hover {
   }
 
   header {
-    margin-top: 10%;
+    margin-top: 20%;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  #bloc_contact {
+   flex-direction: column; 
+  }
+  
+  #border_gauche  {
+    border-left: none;
   }
 }
