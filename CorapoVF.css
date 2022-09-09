@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
 
 
-        /* LES TITRES */
+        /* LES TITRES ____________________________________________________________________________ Les titres */
 
 /* Titre principal de l'index */
 h1 {
@@ -38,7 +38,7 @@ h5 {
 
         /* LES PAGES */
 
-/* Commun à toutes les pages */
+/* Commun à toutes les pages __________________________________________________________________________Commun à toutes les pages*/
 
 body {
   background-image: url(./images_corapo/fond-d-ecran.jpg);
@@ -57,7 +57,7 @@ body {
   color: rgb(50, 48, 67);
 }
 
-/* Liens hypertextes */
+/* Liens hypertextes ____________________________________________________________________________________Liens hypertexte */
 
 #hello_asso, #instagram, #facebook, #presse_3C {
   text-decoration: none;
@@ -70,7 +70,7 @@ body {
 }
 
 
-/* Page principale */
+/* Page principale _______________________________________________________________________________________Page principale */
 
 header {
   min-height: 100vh;
@@ -114,7 +114,7 @@ header {
 }
 
 
-/* Pages secondaires */
+/* Pages secondaires ___________________________________________________________________________________Pages secondaires */
 
 main {
   width: 45%;
@@ -134,7 +134,7 @@ main {
 }
 
 
-/* Page Créations */
+/* Page Créations __________________________________________________________________________________________Créations */
 
 #img_logo_corapo, #img_tout_par_dela, #img_j_invente_le_monde {
   width: 100%;
@@ -145,7 +145,7 @@ main {
 }
 
 
-/* Page Dates */
+/* Page Dates ____________________________________________________________________________________________Dates */
 
 #page_dates {
   text-align: right;
@@ -156,7 +156,7 @@ main {
 }
 
 
-/* Page A propos de nous */
+/* Page A propos de nous _________________________________________________________________________________ A propos de nous*/
 
 #page_a_propos {
   text-align: left;
@@ -166,8 +166,28 @@ main {
   margin-left: 30px;
 }
 
+#bio {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
-/* Page Contact */
+button {
+  background-color: rgba(43, 43, 43, 0);
+  color: white;
+  font-family: 'Mukta', cursive;
+  font-size: 1.5em;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+button:hover {
+  text-shadow: 1px 1px white;
+}
+
+
+/* Page Contact ____________________________________________________________________________________________Contact */
 
 #bloc_contact {
   display: flex;
@@ -185,7 +205,7 @@ main {
 
 
 
-        /* RESPONSIVE */
+        /* RESPONSIVE ______________________________________________________________________________________ RESPONSIVE */
 
 /* écran ordinateur de moitié : page secondaire plus larges */
 
@@ -201,59 +221,4 @@ main {
   .sommaire {
     flex-direction: column;
   }
-}
-
-
-/* portable orientation portrait */
-
-@media only screen and (max-width: 480px) {
-
-  h1 {
-    font-size: 7em;
-  }
-
-  h2 {
-    font-size: 4.5em;
-  }
-  
-  h3 {
-    font-size: 6em;
-  }
-
-  h4 {
-    font-size: 4.5em;
-  }
-
-  h5 {
-    font-size: 3em;
-  }
-
-  main {
-    width: 80%;
-    padding: 7px 7px 7px 7px;
-    font-size: 3.2em;
-  }
-
-  .return-button {
-    width: 7px;
-    height: 7px;
-  }
-
-  .sommaire {
-    flex-direction: column;
-  }
-
-  .sommaire_button {
-    font-size: 3em;
-    margin: auto;
-    padding: auto;
-    font-size: 3.2em;
-    font-weight: 600;
-  }
-
-  #border_gauche  {
-    border-left: 0.7px solid white;
-    padding-left: 30px;
-  }
-
 }
