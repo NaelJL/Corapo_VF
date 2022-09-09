@@ -215,10 +215,15 @@ button:hover {
   }
 }
 
+
 /* écran ordinateur serré : sommaire l'un sur l'autre */
 
 @media only screen and (max-width: 550px) {
   .sommaire {
     flex-direction: column;
+  }
+
+  header {
+    margin-top: 10%;
   }
 }
