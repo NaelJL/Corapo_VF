@@ -55,7 +55,20 @@ body {
   font-weight: 600;
   letter-spacing: 0.2px;
   color: rgb(50, 48, 67);
+
 }
+
+.credit {
+  text-decoration: none;
+  color:rgb(64, 41, 91);
+  text-shadow: 0.5px 0.5px silver;
+}
+
+.credit:hover {
+  color: rgb(50, 45, 45);
+  text-shadow: 0.5px 0.5px rgb(50, 48, 67);
+}
+
 
 /* Liens hypertextes ____________________________________________________________________________________Liens hypertexte */
 
