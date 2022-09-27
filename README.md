@@ -22,7 +22,7 @@
   + Intégrer une **légère animation CSS** : au survol du menu
   
   + Ajouter quelques **fonctionnalités JavaScript** : les biographies déroulantes  
-  D'autres fonctionnalités vont être ajoutées dans le futur (adoucicement des transitions de page par exemple).
+  D'autres fonctionnalités vont être ajoutées dans le futur.
   
   
   ## *Quelles fonctionnalités ?*
