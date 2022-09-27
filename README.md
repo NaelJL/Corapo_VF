@@ -7,7 +7,7 @@
   Avec l'évolution de leur activité et la mise en place de nouveaux projets, le vieux site blogpost n'était plus pertinent.  
   
   
-  ## *Une collaboration tout au long du projet*
+  ## *Une collaboration tout au long du projet pour aboutir à une identité visuelle*
   
   + Définir le **thème visuel** : les nuances de violet presque rose, de bleu tirant jusqu'au gris  
  
@@ -39,7 +39,7 @@
   + Les dates des représentations
   + La partie Presse
   
-  Le site sera donc *mis à jour* à chaque nouvelle création de la compagnie.
+  Le code du site sera donc *mis à jour* à chaque nouvelle création de la compagnie.
   
   
   ## *Comment l'utiliser ?*
