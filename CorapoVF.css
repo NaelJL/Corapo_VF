@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
 
 
-        /* LES TITRES ____________________________________________________________________________ Les titres */
+        /* LES TITRES ____________________________________________________________________________________ Les titres */
 
 /* Titre principal de l'index */
 h1 {
@@ -74,20 +74,36 @@ body {
 }
 
 
-/* Liens hypertextes ____________________________________________________________________________________Liens hypertexte */
+/* Commun aux pages secondaires __________________________________________________________________Commun aux pages secondaires */
 
-#hello_asso, #instagram, #facebook, #presse_3C {
-  text-decoration: none;
-  color: white;
-  text-shadow: 1px 1px black;
+main {
+  width: 45%;
+  margin: auto;
+  padding: 20px 20px 20px 20px;
+  background-color: rgba(43, 43, 43, 0.5);
+  font-size: 1.2em;
+  animation: 1s ease-out 0s 1 opacity;
 }
 
-#hello_asso:hover, #instagram:hover, #facebook:hover, #presse_3C:hover {
-  text-shadow: 2px 2px gray;
+@keyframes opacity {
+  from {
+    opacity: 0;
+  } to {
+    opacity: 1;
+  }
+}
+
+.return-button {
+  width: 20px;
+  height: 20px;
+}
+
+.return-button-link {
+  text-align: right;
 }
 
 
-/* Page principale _______________________________________________________________________________________Page principale */
+/* Index _____________________________________________________________________________________________________________Index */
 
 header {
   min-height: 100vh;
@@ -141,35 +157,6 @@ text-shadow: 0.5px 0.5px rgba(50, 48, 67, 0.5);;
 }
 
 
-/* Pages secondaires ___________________________________________________________________________________Pages secondaires */
-
-main {
-  width: 45%;
-  margin: auto;
-  padding: 20px 20px 20px 20px;
-  background-color: rgba(43, 43, 43, 0.5);
-  font-size: 1.2em;
-  animation: 1s ease-out 0s 1 opacity;
-}
-
-@keyframes opacity {
-  from {
-    opacity: 0;
-  } to {
-    opacity: 1;
-  }
-}
-
-.return-button {
-  width: 20px;
-  height: 20px;
-}
-
-.return-button-link {
-  text-align: right;
-}
-
-
 /* Page Créations __________________________________________________________________________________________Créations */
 
 #img_logo_corapo, #img_tout_par_dela, #img_j_invente_le_monde {
@@ -188,7 +175,7 @@ main {
 }
 
 
-/* Page Dates ____________________________________________________________________________________________Dates */
+/* Page Dates _____________________________________________________________________________________________________Dates */
 
 #page_dates {
   text-align: right;
@@ -244,6 +231,16 @@ button:hover {
 #border_gauche  {
   border-left: 0.7px solid white;
   padding-left: 30px;
+}
+
+#hello_asso, #instagram, #facebook, #presse_3C {
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+#hello_asso:hover, #instagram:hover, #facebook:hover, #presse_3C:hover {
+  text-shadow: 2px 2px gray;
 }
 
 
