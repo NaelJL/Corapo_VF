@@ -8,11 +8,13 @@
 h1 {
   font-family: 'Amatic SC', cursive;
   font-size: 4em;
+  text-shadow: 2px 2px rgba(50, 48, 67, 0.5);
 }
 
 /* Titre secondaire de l'index */
 h2 {
   font-size: 1.5em;
+  text-shadow: 0.7px 0.7px rgba(50, 48, 67, 0.5);
 }
 
 /* Titres principal pages internes */
@@ -60,8 +62,8 @@ body {
 
 .credit {
   text-decoration: none;
-  color:rgb(64, 41, 91);
-  text-shadow: 0.5px 0.5px silver;
+  color:rgb(50, 48, 67);
+  text-shadow: 0.5px 0.5px rgba(50, 48, 67, 0.5);
 }
 
 .credit:hover {
@@ -91,16 +93,25 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  animation: 1s ease-in-out 0s 1 chargement;
+}
+
+@keyframes chargement {
+  from {
+      transform: scale(0.3);
+      transform-origin: center center;
+  }
+  to {
+      transform: scale(1);
+  }
 }
 
 .titre {
   border-top: 2px solid rgb(50, 48, 67);
   border-bottom: 2px solid rgb(50, 48, 67);
-  margin-right: 10%;
-  margin-left: 10%;
+  color:rgb(50, 48, 67);
   margin-bottom: 50px;
   padding-bottom: 30px;
-  color:rgb(50, 48, 67);
 }
 
 .sommaire {
@@ -117,6 +128,7 @@ header {
   margin: 10px 10px 20px 10px;
   padding: 10px 10px 10px 10px;
   text-decoration: none;
+text-shadow: 0.5px 0.5px rgba(50, 48, 67, 0.5);;
   font-size: 1.2em;
   font-weight: 600;
 }
@@ -135,6 +147,15 @@ main {
   padding: 20px 20px 20px 20px;
   background-color: rgba(43, 43, 43, 0.5);
   font-size: 1.2em;
+  animation: 1s ease-out 0s 1 opacity;
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  } to {
+    opacity: 1;
+  }
 }
 
 .return-button {
