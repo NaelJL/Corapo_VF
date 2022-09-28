@@ -34,7 +34,9 @@ h4 {
 
 /* Sous-titres pages internes */
 h5 {
-  font-size: 1em;
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.4em;
+
 }
 
 
@@ -176,6 +178,13 @@ main {
 
 #textes {
   text-align: left;
+}
+
+#menu_extraits, #menu_tout_par_dela, #menu_j_invente_le_monde {
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.7em;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 

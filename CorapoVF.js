@@ -22,3 +22,5 @@ menuM.addEventListener('click', () => {
         document.getElementById('block_menuM').style.display = 'none';
     }
 })
+
+
