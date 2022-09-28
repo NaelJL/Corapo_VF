@@ -254,6 +254,11 @@ button:hover {
   main {
     width: 75%;
   }
+
+  header {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
 
 
