@@ -146,7 +146,7 @@ header {
   margin: 10px 10px 20px 10px;
   padding: 10px 10px 10px 10px;
   text-decoration: none;
-text-shadow: 0.5px 0.5px rgba(50, 48, 67, 0.5);;
+  text-shadow: 0.5px 0.5px rgba(50, 48, 67, 0.5);;
   font-size: 1.2em;
   font-weight: 600;
 }
@@ -264,11 +264,16 @@ button:hover {
   }
 
   header {
-    margin-top: 20%;
+    margin: 20% 10% auto 10%;
   }
 
   h2 {
     font-size: 1.3em;
+    text-shadow: none;
+  }
+
+  .sommaire_button {
+    text-shadow: none;
   }
 
   #bloc_contact {
