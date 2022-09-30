@@ -19,12 +19,13 @@
   
   + Utiliser des **polices particulières** : Amatic SC et Mukta
   
-  + Intégrer une **légère animation CSS** : au survol du menu
+  + Intégrer des **animations CSS** : 
+  Au survol du menu    
+  A l'ouverture de la page de départ : blur() et scale()  
+  A l'ouverture des pages secondaires : opacity()
   
   + Ajouter quelques **fonctionnalités JavaScript** :     
   Les biographies et les créations dans des blocks déroulants  
-  L'animation de la page de départ : blur() et scale()  
-  L'animation de l'ouverture des pages secondaires : opacity()
   
   
   ## *Quelles fonctionnalités ?*
