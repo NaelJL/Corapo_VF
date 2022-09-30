@@ -118,9 +118,11 @@ header {
   from {
       transform: scale(0.3);
       transform-origin: center center;
+      filter: blur(3px);
   }
   to {
       transform: scale(1);
+      filter: blur(0);
   }
 }
 
