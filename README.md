@@ -19,7 +19,7 @@
   
   + Utiliser des **polices particulières** : Amatic SC et Mukta
   
-  + Intégrer des **animations CSS** : 
+  + Intégrer des **animations CSS** :   
   Au survol du menu    
   A l'ouverture de la page de départ : blur() et scale()  
   A l'ouverture des pages secondaires : opacity()
