@@ -21,7 +21,7 @@
   
   + Intégrer une **légère animation CSS** : au survol du menu
   
-  + Ajouter quelques **fonctionnalités JavaScript** : 
+  + Ajouter quelques **fonctionnalités JavaScript** :     
   Les biographies et les créations dans des blocks déroulants
   L'animation de la page de départ : blur() et scale()
   L'animation de l'ouverture des pages secondaires : opacity()
