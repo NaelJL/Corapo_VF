@@ -10,6 +10,7 @@
   ## *Une collaboration tout au long du projet pour aboutir à une identité visuelle*
   
   + Définir le **thème visuel** : les nuances de violet presque rose, de bleu tirant jusqu'au gris  
+  => Utilisation du moodboard de Tatiana Gusmérini.  
  
   + Utiliser des **patterns de couleur** en lien avec le thème :  
   rgb(50, 48, 67) pour le texte  
